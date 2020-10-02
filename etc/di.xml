@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Framework\Console\CommandListInterface">
+        <arguments>
+            <argument name="commands" xsi:type="array">
+                <item name="importCustomerGroup" xsi:type="object">
+                    Dev69\Migration\Console\Command\ImportCustomerGroup
+                </item>
+                <item name="importCustomer" xsi:type="object">
+                    Dev69\Migration\Console\Command\ImportCustomer
+                </item>
+                <item name="importCustomerAddress" xsi:type="object">
+                    Dev69\Migration\Console\Command\ImportCustomerAddress
+                </item>
+                <item name="importOrder" xsi:type="object">
+                    Dev69\Migration\Console\Command\ImportOrder
+                </item>
+                <!--                <item name="importCategoryCommand" xsi:type="object">-->
+                <!--                    Fidesio\MigrateData\Console\Command\ImportCategory-->
+                <!--                </item>-->
+                <!--                <item name="importAgency" xsi:type="object">Fidesio\MigrateData\Console\Command\ImportAgency</item>-->
+                <!--                <item name="importCustomerCommand" xsi:type="object">-->
+                <!--                    Fidesio\MigrateData\Console\Command\ImportCustomer-->
+                <!--                </item>-->
+
+
+                <!--                <item name="importWebStock" xsi:type="object">Fidesio\MigrateData\Console\Command\ImportWebStock</item>-->
+                <!--                <item name="updateAttributeGroup" xsi:type="object">-->
+                <!--                    Fidesio\MigrateData\Console\Command\UpdateAttributeGroup-->
+                <!--                </item>-->
+                <!--                <item name="deleteAttributeInSet" xsi:type="object">-->
+                <!--                    Fidesio\MigrateData\Console\Command\DeleteAttribute-->
+                <!--                </item>-->
+                <!--                <item name="exportOrder" xsi:type="object">Fidesio\MigrateData\Console\Command\ExportOrder</item>-->
+                <!--                <item name="UpdateProductSubSite" xsi:type="object">-->
+                <!--                    Fidesio\MigrateData\Console\Command\UpdateProductSubSite-->
+                <!--                </item>-->
+
+            </argument>
+        </arguments>
+    </type>
+
+</config>
+

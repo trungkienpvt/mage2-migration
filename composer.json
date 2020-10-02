@@ -1,0 +1,36 @@
+{
+  "name": "trungkienpvt/mage2-migration",
+  "description": "Module add custom field to customer address",
+  "type": "magento2-module",
+  "version": "1.0.4",
+  "minimum-stability": "dev",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "require": {
+    "php": ">=7.1.0"
+
+  },
+  "keywords": [
+    "Migration data",
+    "Migration",
+    "Migrate product"
+  ],
+  "authors": [
+    {
+      "name": "Trung Kien",
+      "email": "phantrungkienvt@gmail.com",
+      "homepage": "https://hellodev.dev",
+      "role": "Senior PHP"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Dev69\\Migration\\": ""
+    }
+  }
+}
